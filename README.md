@@ -40,6 +40,7 @@ A Landing Page foi desenvolvida com o objetivo de chegar mais próximo ao layout
 ## Links:
 
 Site publicado (GitHub Pages): https://ingriddesv.github.io/desafio2-frontend-engnet/
+
 Acessar a Release: https://github.com/IngriddeSV/desafio2-frontend-engnet/releases/tag/v1
 
 ---
