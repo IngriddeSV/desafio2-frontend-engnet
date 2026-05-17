@@ -23,17 +23,17 @@ A Landing Page foi desenvolvida com o objetivo de chegar mais próximo ao layout
 
 ### Tecnologias Utilizadas
 
-- **HTML5:**
-- **Tailwind CSS:**
-- **JavaScript :**
-- **Google Fonts (Montserrat):**
+- **HTML5;**
+- **Tailwind CSS;**
+- **JavaScript;**
+- **Google Fonts (Montserrat).**
 
 ### Funcionalidades e Detalhes Implementados
 
-- **Pixel-Perfect & Cores:**
-- **Formulário de Contato Avançado:**
-- **Links e Conexões Ativas:**
-- **Organização do Código:**
+- **Pixel-Perfect & Cores;**
+- **Formulário de Contato Avançado;**
+- **Links e Conexões Ativas;**
+- **Organização do Código.**
 
 ---
 
@@ -49,12 +49,12 @@ Acessar a Release: https://github.com/IngriddeSV/desafio2-frontend-engnet/releas
 
 1. **Clonar o repositório:** Abra o seu terminal e rode o comando abaixo para puxar os arquivos:
 
-   git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
+   -git clone [https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git](https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git)
 
 2. **Entrar na pasta:**
 
-   cd SEU_REPOSITORIO
-   Abrir o projeto:
+   -cd SEU_REPOSITORIO
+   -Abrir o projeto
 
 3. Se você usa o VS Code, o jeito mais fácil é abrir a pasta nele e usar a extensão Live Server clicando em "Go Live" (assim o Tailwind e os scripts rodam certinho com um servidor local simulado).
 
