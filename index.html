@@ -1,0 +1,687 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EngNet - Landing Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              "brand-black": "#000000",
+              "brand-orange": "#ff8d28",
+              "brand-white": "#ffffff",
+              "brand-purple": "#8a38f5",
+              "text-dark": "#1a1a1a",
+              "input-bg": "#ffffff",
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Montserrat", sans-serif;
+        background-color: #000000;
+        margin: 0;
+        overflow-x: hidden;
+      }
+    </style>
+  </head>
+  <body>
+    <header
+      class="w-full h-[98px] bg-brand-black border-b-[0.72px] border-white/20 flex items-center"
+    >
+      <div
+        class="flex items-center justify-between w-full max-w-[1440px] mx-auto px-4 md:px-[80px] lg:px-[165px]"
+      >
+        <div class="flex items-center gap-2">
+          <img
+            src="assets/logo2d.png"
+            alt="Logo"
+            class="h-[50px] md:h-[60px] w-auto object-contain"
+          />
+          <span
+            class="text-brand-white text-[30px] md:text-[40px] font-[500] leading-[150%]"
+          >
+            EngNet
+          </span>
+        </div>
+        <nav class="hidden md:flex items-center gap-[20px] lg:gap-[43.62px]">
+          <a
+            href="#home"
+            class="text-brand-white text-[18px] lg:text-[20px] hover:text-brand-orange transition-colors whitespace-nowrap"
+            >home</a
+          >
+          <a
+            href="#sobre"
+            class="text-brand-white text-[18px] lg:text-[20px] hover:text-brand-orange transition-colors whitespace-nowrap"
+            >sobre nós</a
+          >
+          <a
+            href="#servicos"
+            class="text-brand-white text-[18px] lg:text-[20px] hover:text-brand-orange transition-colors whitespace-nowrap"
+            >serviços</a
+          >
+          <a
+            href="#cases"
+            class="text-brand-white text-[18px] lg:text-[20px] hover:text-brand-orange transition-colors whitespace-nowrap"
+            >cases</a
+          >
+          <a
+            href="#contato"
+            class="text-brand-white text-[18px] lg:text-[20px] hover:text-brand-orange transition-colors whitespace-nowrap"
+            >contato</a
+          >
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section
+        id="home"
+        class="relative w-full max-w-[1440px] mx-auto min-h-[600px] flex items-start pt-[79px] px-[88px] mb-[120px]"
+      >
+        <div class="flex flex-col z-10">
+          <h2
+            class="w-[597px] text-brand-white font-[600] text-[20px] leading-[150%] tracking-[1.5px] uppercase mb-[15px]"
+          >
+            SOMOS UMA EMPRESA JÚNIOR DE TECNOLGIA
+          </h2>
+          <h1
+            class="text-brand-orange font-[700] text-[48px] leading-[150%] uppercase mb-[87px]"
+          >
+            soluções de <br />
+            engenharia para <br />
+            superar novos desafios
+          </h1>
+          <p
+            class="w-[638px] text-brand-white font-[600] text-[18px] leading-[125%] mb-[40px]"
+          >
+            Soluções de engenharia prontas para o uso, raramente resolvem todos
+            os desafios do dia a dia. É por isso que criamos soluções
+            personalizadas e focamos no desenvolvimento de maneira conjunta com
+            o cliente. <br /><br />
+            Converse com os nossos consultores e garanta que a solution e
+            tecnologia funcione para você (e não o contrário).
+          </p>
+          <a
+            href="#contato"
+            class="w-[200px] h-[50px] bg-brand-purple rounded-full flex items-center justify-center hover:opacity-90 transition-opacity"
+          >
+            <span
+              class="text-brand-white font-[700] text-[16px] uppercase underline leading-[30px]"
+            >
+              fale conosco!
+            </span>
+          </a>
+        </div>
+        <div class="absolute left-[908px] top-[56px]">
+          <img
+            src="assets/logo3d.png"
+            alt="Logo 3D"
+            class="w-[451px] h-[527px] object-contain"
+          />
+        </div>
+      </section>
+
+      <section id="servicos" class="w-full bg-brand-white py-[105px]">
+        <div class="max-w-[1440px] mx-auto px-[81px] flex flex-col">
+          <h3
+            class="text-brand-orange font-[700] text-[32px] leading-[150%] tracking-[1.5px] uppercase block whitespace-nowrap"
+          >
+            conte conosco
+          </h3>
+          <h2
+            class="mt-[16px] text-brand-black font-[800] text-[40px] leading-[150%] tracking-[1.5px] uppercase block whitespace-nowrap"
+          >
+            nossos serviços
+          </h2>
+          <div class="mt-[40px] mb-[100px]">
+            <a
+              href="#detalhes"
+              class="inline-flex w-[200px] h-[50px] bg-brand-orange rounded-full items-center justify-center hover:opacity-90 transition-opacity shadow-lg"
+            >
+              <span
+                class="text-brand-white font-[700] text-[16px] uppercase underline"
+              >
+                saiba mais
+              </span>
+            </a>
+          </div>
+          <div class="w-full flex flex-col gap-y-16">
+            <div
+              class="flex flex-col items-center mx-auto text-center max-w-[469px]"
+            >
+              <img
+                src="assets/sol.png"
+                alt="Sol"
+                class="w-[107px] h-[103px] object-contain mb-6"
+              />
+              <h4
+                class="text-brand-black font-[700] text-[26px] leading-[150%] uppercase"
+              >
+                Soluções Personalizadas
+              </h4>
+              <p
+                class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+              >
+                Soluções que se adequam a sua necessidade, abrangemos a
+                integração do hardware ao software para a implementação do
+                projeto.
+              </p>
+            </div>
+            <div
+              class="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-16 w-full mb-[120px]"
+            >
+              <div
+                class="flex flex-col items-center text-center max-w-[469px] mx-auto"
+              >
+                <img
+                  src="assets/cell.png"
+                  alt="App"
+                  class="w-[107px] h-[103px] object-contain mb-6"
+                />
+                <h4
+                  class="text-brand-black font-[700] text-[26px] leading-[150%] uppercase"
+                >
+                  Aplicativos
+                </h4>
+                <p
+                  class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+                >
+                  O desenvolvimento de aplicativos é destinado a novos
+                  empreendedores ou empresas que buscam oferecer experiências
+                  personalizadas para seus usuários, facilitando e automatizando
+                  processos para o uso intuitivo do cliente.
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center text-center max-w-[469px] mx-auto"
+              >
+                <img
+                  src="assets/web.png"
+                  alt="Web"
+                  class="w-[107px] h-[103px] object-contain mb-6"
+                />
+                <h4
+                  class="text-brand-black font-[700] text-[26px] leading-[150%] uppercase"
+                >
+                  Sites
+                </h4>
+                <p
+                  class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+                >
+                  Se torne visível na internet, divulgue a imagem da sua
+                  instituição para o público e potencialize sua prospecção
+                  passiva e conversões online.
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center text-center max-w-[469px] mx-auto"
+              >
+                <img
+                  src="assets/livro.png"
+                  alt="Concepção"
+                  class="w-[107px] h-[103px] object-contain mb-6"
+                />
+                <h4
+                  class="text-brand-black font-[700] text-[26px] leading-[150%] uppercase"
+                >
+                  Concepções Digitais
+                </h4>
+                <p
+                  class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+                >
+                  Verifique a viabilidade tecnológica do seu projeto e amadureça
+                  a sua ideia por meio da coleta de requisitos e prototipação.
+                </p>
+              </div>
+              <div
+                class="flex flex-col items-center text-center max-w-[469px] mx-auto"
+              >
+                <img
+                  src="assets/notecell.png"
+                  alt="Sistemas"
+                  class="w-[107px] h-[103px] object-contain mb-6"
+                />
+                <h4
+                  class="text-brand-black font-[700] text-[26px] leading-[150%] uppercase"
+                >
+                  Sistemas Web
+                </h4>
+                <p
+                  class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+                >
+                  Se adeque à todos os tipos de dispositivos por um sistema web
+                  que automatiza e organiza processos conforme sua
+                  personalização.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="sobre" class="w-full mt-[40px] flex flex-col mb-[60px]">
+            <h3
+              class="text-brand-orange font-[700] text-[32px] leading-[150%] tracking-[1.5px] uppercase block whitespace-nowrap"
+            >
+              o que somos
+            </h3>
+            <h2
+              class="mt-[16px] text-brand-black font-[800] text-[40px] leading-[150%] tracking-[1.5px] uppercase block whitespace-nowrap"
+            >
+              EMPRESA JUNIOR DE TECNOLOGIA
+            </h2>
+          </div>
+          <div
+            class="w-full flex flex-col lg:flex-row gap-12 items-start mt-[40px] mb-[120px]"
+          >
+            <div
+              class="w-full lg:max-w-[624px] text-brand-black font-[400] text-[16px] leading-[150%] text-justify"
+            >
+              <p class="mb-4">
+                Uma empresa júnior é uma organização sem fins lucrativos
+                composta por estudantes universitários que se dedicam a oferecer
+                serviços de consultoria e desenvolvimento para empresas.
+              </p>
+              <p class="mb-4">
+                A ideia principal da empresa júnior é adenocarcinoma de
+                proporcionar uma oportunidade para que os estudantes possam
+                aplicar na prática os conhecimentos adquiridos na universidade
+                e, ao mesmo tempo, ajudar empresas e organizações a solucionar
+                problemas e aprimorar seus processos de negócio.
+              </p>
+              <p>
+                Além disso, a empresa júnior também promove o desenvolvimento
+                pessoal e profissional dos estudantes, que têm a oportunidade de
+                desenvolver habilidades de liderança, trabalho em equipe,
+                negociação, comunicação, entre outras competências importantes
+                para o mercado de trabalho.
+              </p>
+            </div>
+            <div class="w-full lg:w-auto flex-1 flex justify-end lg:pl-[64px]">
+              <img
+                src="assets/engnet_bandeira.png"
+                alt="EngNet Bandeira"
+                class="w-full max-w-[593.55px] h-auto object-contain"
+              />
+            </div>
+          </div>
+          <div
+            class="w-full flex flex-col lg:flex-row gap-12 items-start mt-[40px] mb-[140px]"
+          >
+            <div
+              class="w-full lg:w-auto flex-1 flex justify-start lg:pr-[64px] -mt-[30px]"
+            >
+              <img
+                src="assets/engnet_camisa.png"
+                alt="EngNet Camisa"
+                class="w-full max-w-[593.55px] h-auto object-contain"
+              />
+            </div>
+            <div
+              class="w-full lg:max-w-[624px] flex flex-col text-left -mt-[30px]"
+            >
+              <h3
+                class="text-brand-orange font-[700] text-[32px] leading-[150%] tracking-[1.5px] uppercase block whitespace-nowrap"
+              >
+                quem somos
+              </h3>
+              <h2
+                class="mt-[16px] mb-[40px] text-brand-black font-[800] text-[40px] leading-[150%] tracking-[1.5px] uppercase block whitespace-nowrap"
+              >
+                ENGNET CONSULTORIA
+              </h2>
+              <div
+                class="text-brand-black font-[400] text-[16px] leading-[150%] text-justify flex flex-col"
+              >
+                <p class="mb-4">
+                  Somos uma empresa júnior de tecnologia que se destaca por seu
+                  compromisso em fornecer soluções completas para seus clientes,
+                  através da aplicação das diferentes áreas de conhecimento dos
+                  cursos de Engenharia de Redes, Engenharia Elétrica, Engenharia
+                  de Software, Engenharia Mecatrônica e Engenharia e Ciência da
+                  Computação.
+                </p>
+                <p>
+                  Fundada em 2007, na Universidade de Brasília (UnB), a EngNet
+                  tem como objetivo oferecer vivência empresarial aos alunos,
+                  promovendo o desenvolvimento de habilidades e competências
+                  necessárias para a atuação no mercado de trabalho. Além disso,
+                  a empresa possui uma equipe comprometida, que busca sempre a
+                  transformação, o despertar do propósito e a concretização de
+                  sonhos de seus clientes.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-3 gap-8 w-full max-w-[1285px] mx-auto mb-[60px]"
+          >
+            <div
+              class="flex flex-col items-center text-center w-full max-w-[363px] h-[359px] mx-auto"
+            >
+              <img
+                src="assets/logo2d.png"
+                alt="Logo EngNet"
+                class="h-[80px] w-auto object-contain mb-6"
+              />
+              <h4
+                class="text-brand-purple font-[800] text-[38px] leading-[150%] uppercase"
+              >
+                Missão
+              </h4>
+              <p
+                class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+              >
+                Fomentar o empreendedorismo formando lideranças e trazendo
+                vivência empresarial.
+              </p>
+            </div>
+            <div
+              class="flex flex-col items-center text-center w-full max-w-[363px] h-[359px] mx-auto"
+            >
+              <img
+                src="assets/logo2d.png"
+                alt="Logo EngNet"
+                class="h-[80px] w-auto object-contain mb-6"
+              />
+              <h4
+                class="text-brand-purple font-[800] text-[38px] leading-[150%] uppercase"
+              >
+                Visão
+              </h4>
+              <p
+                class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+              >
+                Se consolidar como empresa protagonista e referência na
+                qualidade de produtos de tecnologia.
+              </p>
+            </div>
+            <div
+              class="flex flex-col items-center text-center w-full max-w-[363px] h-[359px] mx-auto"
+            >
+              <img
+                src="assets/logo2d.png"
+                alt="Logo EngNet"
+                class="h-[80px] w-auto object-contain mb-6"
+              />
+              <h4
+                class="text-brand-purple font-[800] text-[38px] leading-[150%] uppercase"
+              >
+                Valores
+              </h4>
+              <p
+                class="text-brand-black font-[500] text-[16px] leading-[150%] mt-4"
+              >
+                Colaboração, Aprendizado Constante, Comprometimento, Confia! e
+                Sangue laranja.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="cases" class="w-full bg-brand-black pt-[105px] pb-[140px]">
+        <div class="max-w-[1440px] mx-auto px-[81px] flex flex-col">
+          <div class="flex flex-col text-left mb-[60px]">
+            <h3
+              class="text-brand-orange font-[700] text-[32px] leading-[150%] tracking-[1.43px] uppercase block"
+            >
+              nossos
+            </h3>
+            <h2
+              class="mt-2 text-brand-white font-[700] text-[40px] leading-[150%] tracking-[1.43px] uppercase block"
+            >
+              cases
+            </h2>
+          </div>
+          <div
+            class="grid grid-cols-1 lg:grid-cols-3 gap-[33.31px] w-full max-w-[1189.54px] mx-auto mb-[140px]"
+          >
+            <div
+              class="bg-brand-white rounded-[12px] p-6 flex flex-col justify-between w-full max-w-[365.82px] min-h-[673.5px] mx-auto transition-transform hover:-translate-y-2 duration-300"
+            >
+              <div>
+                <img
+                  src="assets/coruja.png"
+                  alt="Viana Costa"
+                  class="w-full max-w-[363.44px] h-[227.1px] object-cover rounded-[10.9px] mb-6"
+                />
+                <div class="flex flex-col text-left">
+                  <h4
+                    class="text-brand-black font-[800] text-[19.38px] leading-[150%] tracking-[1.43px] uppercase"
+                  >
+                    Plataforma Web: Viana Costa
+                  </h4>
+                  <span
+                    class="text-brand-orange font-[700] text-[14px] uppercase tracking-[1px] mt-1 mb-3 block"
+                    >Sistemas Web</span
+                  >
+                  <p
+                    class="text-text-dark font-[500] text-[15px] leading-[150%] text-justify"
+                  >
+                    O Viana Costa é um preparatório para colégios militares que
+                    recebem alunos do 3º ao 9º ano de várias escolas, para
+                    aprimorar em excelência as disciplinas de português e
+                    matemática. Através de aulas…
+                  </p>
+                </div>
+              </div>
+              <div class="mt-6 flex justify-start">
+                <a
+                  href="#case-viana"
+                  class="w-[136.88px] h-[44.81px] bg-brand-purple rounded-[605px] flex items-center justify-center hover:opacity-90 transition-opacity"
+                >
+                  <span
+                    class="text-brand-white font-[700] text-[13px] uppercase"
+                    >saiba mais</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div
+              class="bg-brand-white rounded-[12px] p-6 flex flex-col justify-between w-full max-w-[365.82px] min-h-[673.5px] mx-auto transition-transform hover:-translate-y-2 duration-300"
+            >
+              <div>
+                <img
+                  src="assets/emdia.png"
+                  alt="EmDia"
+                  class="w-full max-w-[363.44px] h-[227.1px] object-cover rounded-[10.9px] mb-6"
+                />
+                <div class="flex flex-col text-left">
+                  <h4
+                    class="text-brand-black font-[800] text-[19.38px] leading-[150%] tracking-[1.43px] uppercase"
+                  >
+                    App: EmDia
+                  </h4>
+                  <span
+                    class="text-brand-orange font-[700] text-[14px] uppercase tracking-[1px] mt-1 mb-3 block"
+                    >Aplicativo</span
+                  >
+                  <p
+                    class="text-text-dark font-[500] text-[15px] leading-[150%] text-justify"
+                  >
+                    Com o advento da pandemia, a rotina do world inteiro mudou.
+                    A necessidade de encontrar outros meios de se exercitar além
+                    das academias, implicou na criação do EmDia. Criado pelo
+                    Guilherme Fernando…
+                  </p>
+                </div>
+              </div>
+              <div class="mt-6 flex justify-start">
+                <a
+                  href="#case-emdia"
+                  class="w-[136.88px] h-[44.81px] bg-brand-purple rounded-[605px] flex items-center justify-center hover:opacity-90 transition-opacity"
+                >
+                  <span
+                    class="text-brand-white font-[700] text-[13px] uppercase"
+                    >saiba mais</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div
+              class="bg-brand-white rounded-[12px] p-6 flex flex-col justify-between w-full max-w-[365.82px] min-h-[673.5px] mx-auto transition-transform hover:-translate-y-2 duration-300"
+            >
+              <div>
+                <img
+                  src="assets/concentro.png"
+                  alt="Concentro"
+                  class="w-full max-w-[363.44px] h-[227.1px] object-cover rounded-[10.9px] mb-6"
+                />
+                <div class="flex flex-col text-left">
+                  <h4
+                    class="text-brand-black font-[800] text-[19.38px] leading-[150%] tracking-[1.43px] uppercase"
+                  >
+                    Site Institucional: Concentro
+                  </h4>
+                  <span
+                    class="text-brand-orange font-[700] text-[14px] uppercase tracking-[1px] mt-1 mb-3 block"
+                    >Site</span
+                  >
+                  <p
+                    class="text-text-dark font-[500] text-[15px] leading-[150%] text-justify"
+                  >
+                    A Concentro é a Federação das Empresas Juniores do Distrito
+                    Federal. A função da Federação é representar, expandir,
+                    desenvolver, prestar suporte, alinhar, integrar e
+                    regulamentar as Empresas Juniores…
+                  </p>
+                </div>
+              </div>
+              <div class="mt-6 flex justify-start">
+                <a
+                  href="#case-concentro"
+                  class="w-[136.88px] h-[44.81px] bg-brand-purple rounded-[605px] flex items-center justify-center hover:opacity-90 transition-opacity"
+                >
+                  <span
+                    class="text-brand-white font-[700] text-[13px] uppercase"
+                    >saiba mais</span
+                  >
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            id="contato"
+            class="w-full max-w-[1328px] mx-auto flex flex-col lg:flex-row min-h-[570px] px-4 lg:px-0"
+          >
+            <div
+              class="w-full lg:w-1/2 bg-brand-white rounded-t-[11.43px] lg:rounded-tr-none lg:rounded-l-[11.43px] p-6 md:p-[58px] flex flex-col text-left"
+            >
+              <h3
+                class="text-brand-black font-[700] text-[25.41px] leading-[150%] tracking-[1.5px] uppercase mb-[15px]"
+              >
+                envie uma mensagem!
+              </h3>
+              <p
+                class="max-w-[476.42px] text-brand-black font-[500] text-[16.52px] leading-[150%] tracking-[1.5px] uppercase mb-[48px]"
+              >
+                Converse diretamente com um dos nossos consultores e veja como
+                pode ser simples, rápido e barato resolver o seu problema.
+                Estamos prontos para te ajudar!
+              </p>
+              <div class="flex flex-col gap-6">
+                <a
+                  href="https://wa.me/556192137397"
+                  target="_blank"
+                  class="flex items-center gap-[22px] hover:text-brand-orange transition-colors group"
+                >
+                  <img
+                    src="assets/zap.png"
+                    alt="WhatsApp"
+                    class="w-[48.27px] h-[43.19px] object-contain"
+                  />
+                  <span
+                    class="text-brand-black font-[700] text-[15.25px] leading-[150%] tracking-[1.5px] uppercase group-hover:text-brand-orange transition-colors"
+                    >(61) 9213-7397</span
+                  >
+                </a>
+                <a
+                  href="mailto:contato@engnetconsultoria.com.br"
+                  class="flex items-center gap-[22px] hover:text-brand-orange transition-colors group"
+                >
+                  <img
+                    src="assets/email.png"
+                    alt="Email"
+                    class="w-[48.27px] h-[43.19px] object-contain"
+                  />
+                  <span
+                    class="text-brand-black font-[700] text-[15.25px] leading-[150%] tracking-[1.5px] uppercase break-all group-hover:text-brand-orange transition-colors"
+                    >contato@engnetconsultoria.com.br</span
+                  >
+                </a>
+                <a
+                  href="https://maps.google.com/?q=place_id:ChIJOUE8gbo7WpMR9fje9mBVbNs"
+                  target="_blank"
+                  class="flex items-start gap-[22px] hover:text-brand-orange transition-colors group"
+                >
+                  <img
+                    src="assets/loc.png"
+                    alt="Localização"
+                    class="w-[48.27px] h-[43.19px] object-contain mt-1"
+                  />
+                  <span
+                    class="text-brand-black font-[700] text-[15.25px] leading-[150%] tracking-[1.5px] uppercase max-w-[450px] group-hover:text-brand-orange transition-colors"
+                    >SG-11 Laboratório de Engenharia Elétrica - UnB, Brasília -
+                    DF</span
+                  >
+                </a>
+              </div>
+            </div>
+            <div
+              class="w-full lg:w-1/2 bg-brand-orange rounded-b-[11.43px] lg:rounded-bl-none lg:rounded-r-[11.43px] p-6 md:p-[64px] flex flex-col justify-between"
+            >
+              <form
+                class="flex flex-col gap-[22px] w-full max-w-[415px] mx-auto lg:ml-[55px]"
+              >
+                <input
+                  type="text"
+                  placeholder="NOME*"
+                  required
+                  class="w-full h-[62px] bg-brand-white rounded-[12.7px] px-6 text-brand-black font-[700] text-[15px] placeholder-brand-black/60 focus:outline-none uppercase tracking-[1.5px]"
+                />
+                <input
+                  type="email"
+                  placeholder="E-MAIL*"
+                  required
+                  class="w-full h-[62px] bg-brand-white rounded-[12.7px] px-6 text-brand-black font-[700] text-[15px] placeholder-brand-black/60 focus:outline-none uppercase tracking-[1.5px]"
+                />
+                <input
+                  type="tel"
+                  placeholder="TELEFONE*"
+                  class="w-full h-[62px] bg-brand-white rounded-[12.7px] px-6 text-brand-black font-[700] text-[15px] placeholder-brand-black/60 focus:outline-none uppercase tracking-[1.5px]"
+                />
+                <textarea
+                  placeholder="ASSUNTO*"
+                  rows="3"
+                  class="w-full h-[120px] bg-brand-white rounded-[12.7px] p-6 text-brand-black font-[700] text-[15px] placeholder-brand-black/60 focus:outline-none uppercase tracking-[1.5px] resize-none"
+                ></textarea>
+                <div class="mt-4 flex justify-start">
+                  <button
+                    type="submit"
+                    class="w-[136.88px] h-[44.81px] bg-brand-purple rounded-[605px] flex items-center justify-center hover:opacity-90 transition-opacity cursor-pointer"
+                  >
+                    <span
+                      class="text-brand-white font-[700] text-[13px] uppercase tracking-[1px]"
+                      >enviar</span
+                    >
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
